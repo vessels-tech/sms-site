@@ -227,11 +227,19 @@ section {
 section h2 {
   font-size: 50px;
 }
-section.signup {
-  padding: 200px 0;
-  font-size: 50px;
+section.contact {
+  background: #7532e4;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #7532e4, #7532e4);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #7532e4, #7532e4);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
 }
-section.signup .button {
+section.contact h2 {
+  padding-bottom: 50px;
+}
+section.contact .button {
   color: #1ff2e6;
 }
 section.download {

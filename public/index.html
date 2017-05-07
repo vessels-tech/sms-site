@@ -2,14 +2,13 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Turn real conversations into real data with smscollect. smscollect is a chatbot plugin for twilio, nexmo and many more, allowing you to collect conversational data over sms.">
+    <meta name="author" content="Vessels">
 
-    <title>sms collect - vessels</title>
+    <title>sms data collection - vessels</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,21 +22,18 @@
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="lib/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="lib/device-mockups/device-mockups.min.css">
-
-    <!-- Theme CSS -->
     <link href="css/new-age.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-96659293-2', 'auto');
+    ga('send', 'pageview');
+  </script>
 </head>
 
 <body id="page-top">
-
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -48,15 +44,8 @@
                 <a class="navbar-brand page-scroll" href="#page-top">sms collect</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <!-- <li>
-                        <a class="page-scroll" href="#download">Download</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#features">Features</a>
-                    </li> -->
                     <li>
                         <a class="page-scroll" href="mailto:lewis@vesselstech.com">Contact</a>
                     </li>
@@ -73,10 +62,8 @@
                 <div class="col-sm-7">
                     <div class="header-content">
                         <div class="header-content-inner">
-                            <!-- <h1>Bring the power of AI to your data collection tools.</h1> -->
-                            <h1>Supercharge your data collection.</h1>
+                            <h1>Build SMS bots for remote surveys</h1>
                             <a href="#signup" class="btn btn-outline btn-xl page-scroll">Sign up for early access!</a>
-
                         </div>
                     </div>
                 </div>
@@ -85,11 +72,9 @@
                         <div class="device-mockup iphone6_plus portrait white">
                             <div class="device">
                                 <div class="screen">
-                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt="">
+                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt="sms-survey-example">
                                 </div>
                                 <div class="button">
-                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                                 </div>
                             </div>
                         </div>
@@ -98,15 +83,80 @@
             </div>
         </div>
     </header>
+  <section id="features" class="features">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <div class="section-heading">
+                      <h2>Supercharge your data collection.</h2>
+                      <p class="text-muted">Check out what you can do with sms collect!</p>
+                      <hr>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="device-container">
+                      <div class="device-mockup iphone6_plus portrait white">
+                          <div class="device">
+                              <div class="screen">
+                                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                  <img src="img/demo-screen-1.jpg" class="img-responsive" alt=""> </div>
+                              <div class="button">
+                                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-8">
+                  <div class="container-fluid">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="feature-item">
+                                  <i class="icon-puzzle text-primary"></i>
+                                  <h3>Plugin Ready</h3>
+                                  <p class="text-muted">Built to work with Twilio, Nexmo, and many more!</p>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="feature-item">
+                                  <i class="icon-bubbles text-primary"></i>
+                                  <h3>SMS Chatbots</h3>
+                                  <p class="text-muted">Build remote surveys that feel like real conversations.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="feature-item">
+                                  <i class="icon-globe-alt text-primary"></i>
+                                  <h3>Collect Anywhere</h3>
+                                  <p class="text-muted">Build SMS apps that anyone can use. No data needed!</p>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="feature-item">
+                                  <i class="icon-lock-open text-primary"></i>
+                                  <h3>All Yours</h3>
+                                  <p class="text-muted">Your data is always yours. We can manage it for you, or build a custom integration to suit for your needs.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 
-  <section id="signup">
+  <section id="signup"class="contact">
     <div class="container">
+      <h2 for="mce-EMAIL">Sign up for early access to sms collect.</h2>
       <!-- Begin MailChimp Signup Form -->
       <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
       <div id="mc_embed_signup">
       <form action="//vesselstech.us15.list-manage.com/subscribe/post?u=145bb0ab58d995db01931d6a1&amp;id=ca6eded64d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div id="mc_embed_signup_scroll">
-      	<h3 for="mce-EMAIL">Sign up for early access to sms collect.</h3>
       	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
           <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_145bb0ab58d995db01931d6a1_ca6eded64d" tabindex="-1" value=""></div>
@@ -119,11 +169,11 @@
     </div>
   </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2017 Vessels Technologies. All Rights Reserved.</p>
-        </div>
-    </footer>
+  <footer>
+      <div class="container">
+          <p>&copy; 2017 Vessels Technologies. All Rights Reserved.</p>
+      </div>
+  </footer>
 
     <!-- jQuery -->
     <script src="lib/jquery/jquery.min.js"></script>
@@ -136,7 +186,5 @@
 
     <!-- Theme JavaScript -->
     <script src="js/new-age.min.js"></script>
-
 </body>
-
 </html>
