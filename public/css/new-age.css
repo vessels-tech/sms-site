@@ -242,6 +242,13 @@ section.contact h2 {
 section.contact .button {
   color: #1ff2e6;
 }
+header.thanks {
+  text-align: center;
+  padding: 100px 0;
+}
+header.thanks h2 {
+  font-size: 50px;
+}
 section.download {
   padding: 150px 0;
   position: relative;
